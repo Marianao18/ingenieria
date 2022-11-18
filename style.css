@@ -223,19 +223,23 @@
     height: 12%;
     background-color: rgba(128, 128, 128, 0);
     margin-bottom: 2.3px;
-    text-align: center;
-    
+    text-align: justify;
+
 }
 .texto_cursos{
     color: white;
     background-color: #97ca3f00;
     float: left;
     margin-left: 10px;
-    text-align: center;
+    text-align: justify;
     font-size: 18px;
   margin-top: 10px;
-    
 }
+#Startups{
+  float: left;
+}
+
+
 .triangulo{
     color: white;
     background-color: #97ca3f00;
@@ -244,6 +248,7 @@
     text-align: center;
     font-size: 25px;
   margin-top: 10px;
+  margin-right: -40PX;
   float: right;
 }
 
@@ -430,7 +435,7 @@ margin-top:210px ;
   position: absolute;
   width:40px ;
   height: 40px;
-  background-image: url(imagenes/twitter.png);
+  background-image: url(./imagenes/twitter.png);
   margin-left: 120px;
   background-color: #03091e;
 }
@@ -438,7 +443,7 @@ margin-top:210px ;
   position: absolute;
   width:40px ;
   height: 40px;
-  background-image: url(imagenes/youtube.png);
+  background-image: url(./imagenes/youtube.png);
   margin-left: 0px;
   background-color: #03091e;
 }
@@ -448,7 +453,7 @@ margin-top:210px ;
   position: absolute;
   width:40px ;
   height: 40px;
-  background-image: url(imagenes/facebook.png);
+  background-image: url(./imagenes/facebook.png);
   margin-left: 60px;
   background-color: #03091e;
 }
@@ -456,7 +461,7 @@ margin-top:210px ;
   position: absolute;
   width:40px ;
   height: 40px;
-  background-image: url(imagenes/instagram.png);
+  background-image: url(./imagenes/instagram.png);
   margin-left: 180px;
   background-color: #03091e;
 }
