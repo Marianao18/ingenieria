@@ -1,0 +1,437 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.contenedor_principal{
+    
+
+    background-color: #121f3d;
+    width: 100%;
+    height: 900px;
+    border-radius: 1%;
+}
+.contenedor-videos-cursos{
+    background-color: #121f3d;
+    width: 100%;
+    height: 900px;
+    border-radius: 1%;
+}
+.linea{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1px;
+}
+
+.menu_TdeAcademy{
+    position: fixed;
+    height: 380px;
+    width: 140px;
+   background-color: #33b1ff00;   
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.menu_TdeAcademy:hover{
+    cursor: pointer;
+}
+
+.menu_TdeAcademy_centro{
+   
+     height: 380px;
+     width: 140px;
+background: url(./imagenes/icon_menu.png);}
+/*________________________________________________*/
+
+.contenedor_curso{
+    background-color: #ffffff00;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 2px;
+   
+}
+
+
+
+.imagen_grande_2{
+float:right;
+width: 500px;
+background: transparent;
+
+justify-content: center;
+filter: drop-shadow( 5px 5px 50px  #98ca3f);
+margin-top: 200px;
+margin-left: -150px;
+}
+    
+
+
+
+.loguito_curso{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-left:130px ;
+    background-image:url(/imagenes/simbolo_curso.png);
+    margin-top: 30px;
+}
+.informacion_curso{
+    position: absolute;
+    width: 26.5%;
+    height: 89%;
+    margin-left:240px ;
+    margin-top: 37px;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#titulo_curso{
+    
+    width: 100%;
+    height: 160px;
+    font-size: 41px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+
+
+.contenedor_calificacion{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0);
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+.estrellas{
+    background-image: url(./imagenes/estrellas.png);
+    width: 70%;
+    height: 35px;
+    margin-top: -10px;
+}
+.opiniones{
+    color: #33b1ff;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.nivel{
+    background-color: rgba(255, 11, 235, 0);
+    width: 140px;
+    height:35px ;
+    margin-left: 40px;
+    border-radius: 9px;
+    border:  white 2px solid  ;
+    display: flex;
+    align-items: center;
+}
+
+.barra1{
+    background-color: #33b1ff;
+    width: 6px;
+    height: 14px;
+    margin-left: 10px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.barra2{
+    background-color: #33b1ff;
+    width: 6px;
+    height: 20px;
+    margin-left: 5px;
+    border-radius: 2px;
+    margin-top: 4px;
+}
+
+.barra3{
+    background-color: #33b1ff8e;
+    width: 6px;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 2px;
+    margin-top: 0px;
+}
+
+.textto_barra{
+    margin-top: 0px;
+    margin-left: 5px;
+    color: wheat;
+    font-size: 18px;
+}
+
+.seccion1{
+    position: absolute;
+    width: 95%;
+    height: 130px;
+    background-color:rgba(176, 235, 12, 0);
+    margin-top: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: rgb(128, 128, 128) solid 1px;
+    color: wheat;
+}
+.seccion2{
+    position: absolute;
+    width: 95%;
+    height: 130px;
+    background-color: rgba(176, 235, 12, 0);
+    margin-top: 530px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: grey solid 1px;
+    color: wheat;
+
+
+}
+.seccion3{
+    position: absolute;
+    width: 95%;
+    height: 130px;
+    background-color: rgba(176, 235, 12, 0);
+    margin-top:810px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: grey solid 1px;
+    color: wheat;
+
+}
+
+.contenedorVIDEO{
+    position: absolute;
+    width: 300px;
+    height: 130px;
+    background-color: white;
+    margin-top:1100px;
+    border-radius: 10px;
+    background-color: #24385b;
+    filter: drop-shadow( 5px 5px 40px  #4467a1bb);
+    border: #33b1ffe5 outset 2px;
+
+}
+
+.texto_contenido_introduccion{
+    width: 150px;
+    
+    margin-left: 250px ;
+    margin-top: -70px;
+    color: white; 
+    background-color: transparent;
+}
+.historia-conteiner{
+
+    background-color: transparent;
+    width: 200px;
+    float: right;
+    margin: 30px 55px 10px 15px;
+    color: white;
+}
+.quees-conteiner{
+    background-color: transparent;
+    width: 200px;
+    float: right;
+    margin: 30px 55px 10px 15px;
+    color: white;
+}
+.aplicaciones-conteiner{
+    background-color: transparent;
+    width: 200px;
+    float: right;
+    margin: 30px 55px 10px 15px;
+    color: white;
+}
+
+
+
+
+
+.contenedorVIDEO1{
+    position: relative;
+    width: 500px;   
+    height: 113px;
+    background-color: white;
+    margin-top:5px;
+    border-radius: 10px;
+    background-color: #24385b;
+    filter: drop-shadow( 5px 5px 40px  #4467a1bb);
+    border: #33b1ffe5 outset 2px;
+    
+    margin-left: 380px; 
+    float: left;
+ 
+
+
+
+}
+iframe{
+    border-radius: 8px 0px 0px 8px;
+}
+
+.container-descripcion{
+    width: 150px;
+    text-align: left;
+    background-color: antiquewhite;
+    float: left;
+    margin-top:  100px;
+}
+#video2{
+    margin-top:5px;
+
+}
+#video3{
+    margin-top:40px;
+
+}
+#video4{
+    margin-top:80px;
+
+
+}
+
+
+
+.titulos{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-weight:bold ;
+    color: #33b1ff;
+    font-size: 15px;
+
+}
+
+.iconAprender{
+    background-color: transparent;
+    float: right;
+}
+.texto_contenido{
+    background-color:rgba(0, 128, 0, 0);
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+
+
+
+
+.botones_bajos{
+    position: absolute;
+    width: 550px;
+    height: 50px;
+    background-color: rgba(137, 43, 226, 0);
+    float: right;
+    margin-left: 780px;
+    margin-top: 43%;
+    display: flex;
+    align-items: center;
+  
+
+
+}
+.boton_ruta{
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: #33b1ff solid 2px;
+    color: #33b1ff;
+    border-radius: 5px;
+    text-align: right;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 5px;
+    margin-right:300px;
+}
+.boton_mas{
+    background-color: transparent;
+    width:28px ;
+    height: 28px;
+float: left; 
+margin-right: 3px;}
+
+
+
+.boton_examen{
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    color: #33b1ff;
+    border-radius: 5px;
+    text-align: right;
+   
+    align-items:center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    background-color: transparent;
+    margin-right: 15px;
+    margin-left: 0px;
+}
+.boton_sombrero{
+    background-color: transparent;
+    width:28px ;
+    height: 28px;
+float: left; 
+margin-right: 3px;
+}
+
+.info_TdeAcademy{
+    position:absolute;
+    width: 243px;
+    height: 80px;
+    background-color: #121f3d;
+    float: right;
+    margin-top: 50%;
+    margin-left: 67%;
+}
+
+.frases{
+    background: transparent;
+    font-size: 18px;
+    color: white;
+
+}
+
+#frase1,#frase2{
+   font-weight: bolder;
+   
+}
+#frase3,#frase4{
+    font-weight: bolder;
+    font-size: 14px;
+    margin-left: 15px;
+ }
+
+
+ #frase1,#frase2{
+margin-left: 80px;
+ }
+ #frase2{
+    margin-left: 165px;
+ }
+
+ .contenedorVIDEO{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+ }
+
+ .contenedorVIDEO video{
+    border-radius: 8px 0px 0px 8px;
+    margin-top: 0px;
+ }
+ .contenedorVIDEO1 video{
+    border-radius: 8px 0px 0px 8px;
+    margin-top: 0px;
+ }

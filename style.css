@@ -1,0 +1,511 @@
+*{
+    background-color: #121f3d;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+
+  }
+  .logo{
+      margin-top: 0;
+      position:relative;
+      
+  }
+  header{
+      
+      margin-top: 0;text-align: center;
+  }
+  
+  .nav-logged{
+      
+      display: flex;
+      
+      justify-content: space-between;
+      padding: 10px;
+      -ms-flex-item-align: center;
+      
+  }
+ 
+  
+  
+  
+  .serach-input{
+      width: 100%;
+      height: 25px;
+      border-radius: 8px;
+      background: #03091e;
+      background: url("/imagenes/1search.png")  no-repeat  left;
+      border-color: rgb(201, 209, 215) ;
+      color: #fff;
+      padding-left: 35px;
+  }
+  .container-principal{
+      margin-top: 0px;
+      width: 150px;
+      height: 40px;
+      
+  }
+  .container-principal-input{
+      margin-top: 0px;
+      width: 300px;
+      height: 40px;
+  }
+  .main-input-container{
+      width: 300px;
+      height: 40px;
+      float: left;
+      margin: 0px 0px 0px 400px ;
+      margin-top: 0;
+  }
+  
+  .cursos-link{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .container-principal-cursos{
+      
+      float: left;
+      margin: 0px 0px 0px 480px ;
+      height: 1060%;
+      font-size: 18px;
+      margin-top: 5px;
+  
+  
+  }
+  .butom-word{
+      width: 120px;
+      height: 35px;
+      border-radius: 5px;
+      background-color: #98ca3f;
+      border-color: rgb(18, 18, 18);
+      float: left;
+      margin: 0px 0px 0px 10px ;
+      font-weight: bold;
+      font-size: 13px;
+  }
+  .butom-word:hover{
+      cursor: pointer;
+  }
+  .img-menu{
+      margin-top: 0px;
+      float: right;
+      margin-right: 45px;
+     
+  }
+  
+  .img-notification{
+      float: left;
+      margin: 0px 0px 0px 10px ;
+  }
+  .img-notification :hover{
+  cursor: pointer;
+  
+  }
+  .img-menu :hover{
+      cursor: pointer;
+  }
+  
+  .logo-name-container{
+     
+      float: right;
+      
+     margin-bottom: 0px;
+     margin-right: 10px;
+  }
+  .logo-img-container{
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  }
+  .logo{
+  
+  margin-top: 0;
+  
+  }
+  .nombre{
+      float: left;
+      margin: 0px 0px 5px 0px ;
+  }
+
+  /*------------------------------------------------------------------------------------*/
+  .tittle-main{
+  
+      width: 100%;
+      height: auto;
+      margin-bottom: 12px;
+      margin-top: 0;
+      
+  background-color: #fff;
+  }
+  h1{
+    justify-content: center;
+    margin-top: 25px;
+      
+      text-align: center;
+      color: #fff;
+  }
+  
+  .slider{
+      width: 64%;
+      margin: auto;
+      overflow: hidden;
+      margin-top:35px;
+      margin-bottom: 65px;
+      
+      
+  }
+  .slider ul{
+      display: flex;
+      padding: 0px;
+      width: 500%;
+      animation: cambio 20s infinite;
+      animation-direction: alternate;
+  }
+  .slider li{
+      width: 100%;
+      list-style: none;
+  }
+  .slider img{
+  width: 100%;
+  
+  }
+  
+  
+  @keyframes cambio{
+      0% {margin-left:0 ;}
+      15%{margin-left: 0;}
+  
+      30%{margin-left: -100%;}
+      45%{margin-left: -100%;}
+  
+      55%{margin-left: -200%;}
+      66%{margin-left: -200%;}
+  
+      77%{margin-left: -300%;}
+      89%{margin-left: -300%;}
+  
+      95%{margin-left: -400%;}
+      90%{margin-left: -400%;}
+      
+      
+  }
+  ul{
+      text-align: center;
+      
+  }
+  
+  
+  /*------------------------------------------------------------------------------------*/
+   .container-footer{
+    
+        display:flex;
+      width: 100%;
+      height: 600px;
+      background-color: #03091e;
+     justify-content: center; 
+  }
+
+  
+
+  .contenedores_info{
+    width: 25%;
+    height:400px ;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 5px;
+    margin-top:30px;
+  } 
+
+  /***********************************************/
+.contenedor_cursos_footer{
+    width: 100%;
+    height: 12%;
+    background-color: rgba(128, 128, 128, 0);
+    margin-bottom: 2.3px;
+    text-align: center;
+    
+}
+.texto_cursos{
+    color: white;
+    background-color: #97ca3f00;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 18px;
+  margin-top: 10px;
+    
+}
+.triangulo{
+    color: white;
+    background-color: #97ca3f00;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 25px;
+  margin-top: 10px;
+  float: right;
+}
+
+  .rayaCOLOR{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: rgb(0, 121, 74);
+  }
+
+  .rayaCOLOR{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: rgb(3, 74, 180);
+  }
+  .rayaCOLOR1{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: red;
+  }.rayaCOLOR2{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: purple;
+  }.rayaCOLOR3{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: orange;
+  }.rayaCOLOR4{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: green;
+  }.rayaCOLOR5{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: fuchsia;
+  }.rayaCOLOR6{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: yellow;
+  }
+  .rayaCOLOR7{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: yellow;
+  }
+  /***********************************************/
+  .IBM_LOGO{
+    width:150px ;
+    height: 60px;
+    background-image: url(https://static.platzi.com/static/images/footer/logo-ibm.png);
+    margin-top: 77px;
+    margin-left: 40px;
+    position: absolute;
+    background-color: #03091e;
+  } 
+
+  .Unity_logo{
+    width:157px ;
+    height: 60px;
+    background-image: url(https://static.platzi.com/static/images/footer/logo-unity.png);
+    margin-top: 77px;
+    margin-left: 210px;
+    background-color: #03091e;
+  }
+
+  .texto_certificados{
+    color: white;
+    background-color: #97ca3f00;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .texto_premios{
+    color: white;
+    background-color: #97ca3f00;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+  }
+
+  .y_logo{
+    width:50px ;
+    height: 48px;
+    background-image: url(https://static.platzi.com/static/images/footer/yc.png);
+    margin-top: 137px;
+    margin-left: 65px;
+    position: absolute;
+    background-color: #03091e;
+  } 
+
+  .asu_logo{
+    width:138px ;
+    height: 56px;
+    background-image: url(https://static.platzi.com/static/images/footer/asugsv.png);
+    margin-top: 137px;
+    margin-left: 180px;
+    background-color: #03091e;
+  }
+/*************************************************************************************/
+.platziLogo{
+
+  width:157px ;
+  height: 56px;
+  
+  margin-top: 10px;
+  margin-left: 0px;
+ 
+}
+.isotipo{
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.isotipo:hover{
+  cursor: pointer;
+  
+}
+
+.isotipo :hover{
+  cursor: pointer;
+}
+
+
+.isotipo2{
+  background-color: #03091e;
+}
+
+
+.texto_frase{
+  color: white;
+  background-color: #97ca3f00;
+  float: left;
+  margin-left: 0x;
+  text-align:left;
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.texto_redes{
+  color: white;
+  background-color: #97ca3f00;
+  float: left;
+  margin-left: 0x;
+  text-align:left;
+  font-size: 17px;
+  margin-top: 120px;
+}
+
+
+.contenedor_redes{
+  display: flex;
+background-color: #a5fa1100;
+width:  240px;
+height: 50px;
+margin-top:210px ;
+
+
+}
+
+
+
+
+.logo_redes1{
+  position: absolute;
+  width:40px ;
+  height: 40px;
+  background-image: url(imagenes/twitter.png);
+  margin-left: 120px;
+  background-color: #03091e;
+}
+.logo_redes2{
+  position: absolute;
+  width:40px ;
+  height: 40px;
+  background-image: url(imagenes/youtube.png);
+  margin-left: 0px;
+  background-color: #03091e;
+}
+
+
+.logo_redes3{
+  position: absolute;
+  width:40px ;
+  height: 40px;
+  background-image: url(imagenes/facebook.png);
+  margin-left: 60px;
+  background-color: #03091e;
+}
+.logo_redes4{
+  position: absolute;
+  width:40px ;
+  height: 40px;
+  background-image: url(imagenes/instagram.png);
+  margin-left: 180px;
+  background-color: #03091e;
+}
+
+
+
+/*BOTON PARA CURSO*/
+.contenedor_botonCURSO{
+  width: 100%;
+  height: 70PX;
+  background-color: #97ca3f00;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.boton_cursos{
+  background-color: #ffffff;
+  min-width: 150px;
+  height: 60px;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  margin-top: 6px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.boton_cursos:hover{
+  background-color:#98ca3f ;
+  color: blanchedalmond;
+  font-size:23px ;
+}
+.boton_cursos:hover:after {
+  top: 0;
+  left: 0;
+}
+.boton_cursos:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  background-color: #80ed99;
+}
+  /*Responsive*/
